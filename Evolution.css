@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+
+
+}
+
+body {
+   
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 1600px;
+    margin: auto;
+min-width: 300px;
+
+}
+.logo{  position: relative;
+  right:80px;
+  bottom: 15px;
+  
+  
+  
+  
+    width: 80px;
+    
+    height: 80px;
+  
+
+}
+.tittle{ text-align: center;
+font-size: 75px;
+}
+.header-main { display: flex;
+
+background-color: rgba(185, 171, 49, 1);
+justify-content:space-around;
+color: black;
+padding: 20px;
+height: 100px;
+border: dotted black;
+} 
+
+h2{ text-align: center;
+font-size: 50px;
+}
+
+.container { display:flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    height: 100px;
+    padding-top: 20px;
+    
+    text-align: center;
+    
+    }
+    img {
+        max-height: 1000px;
+        display: block;
+        object-fit: cover;
+        object-position: top;
+    width: 100%;
+    
+    }
+    p{ 
+        font-size: 50px;
+        margin-bottom: 100px;
+        
+        
+        }
+        .overskrift{ font-size: 100px;
+        text-align: center;
+        }
+        .bilde2{ margin-bottom: 30px;
+        
+        
+        }
+         .button{ background-color: rgb(58, 19, 177);
+            border-radius: 10px;
+           
+            color: white;
+            padding: 20px 20px;
+            margin: 20px 20px;
+            cursor: pointer;
+        width: 600px;
+        height: 100px;
+        font-size: 50px;
+   position:relative;
+   left: 800px;
+    }
+    .facebook  {height: 60px;
+        width: 60px;}
